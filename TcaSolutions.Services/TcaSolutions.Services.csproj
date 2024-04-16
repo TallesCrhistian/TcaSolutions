@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TcaSolutions.Business\TcaSolutions.Business.csproj" />
+    <ProjectReference Include="..\TcaSolutions.Data\TcaSolutions.Data.csproj" />
+    <ProjectReference Include="..\TcaSolutions.Shared\TcaSolutions.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
